@@ -1,0 +1,37 @@
+.ComingSoonMobile {
+    width: 375px;
+    height: 800px;
+    background: linear-gradient(
+        135deg,
+        hsl(0, 0%, 100%) 0%,
+        hsl(0, 100%, 98%)  50%
+    );
+}
+
+.coming__mobile__logo {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.coming__mobile__logo img {
+    width: 108px;
+}
+
+.coming__mobile__header {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/hero-mobile.jpg");
+}
+.coming__mobile__body {
+    width: 100%;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:30px;
+    padding-right: 30px;;
+}

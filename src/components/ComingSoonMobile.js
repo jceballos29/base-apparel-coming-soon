@@ -1,14 +1,17 @@
 import React from "react";
-import "../styles/ComingSoon.css";
+import "../styles/ComingSoonMobile.css";
 
 import logo from "../images/logo.svg";
 import EmailInput from "./EmailInput";
 
-const ComingSoon = () => {
+const ComingSoonMobile = () => {
     return (
-        <div className="ComingSoon">
-            <div className="coming__body">
+        <div className="ComingSoonMobile">
+            <div className="coming__mobile__logo">
                 <img src={logo} alt="Base Apparel" />
+            </div>
+            <div className="coming__mobile__header"></div>
+            <div className="coming__mobile__body">
                 <h1>
                     <span>WE'RE</span>
                     <br />
@@ -23,9 +26,8 @@ const ComingSoon = () => {
                 </p>
                 <EmailInput />
             </div>
-            <div className="coming__header"></div>
         </div>
     );
 };
 
-export default ComingSoon;
+export default ComingSoonMobile;

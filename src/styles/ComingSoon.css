@@ -1,0 +1,57 @@
+.ComingSoon {
+    width: 1440px;
+    height: 800px;
+    background-color: hsl(0, 100%, 98%);
+    display: flex;
+    align-items: center;
+}
+
+.coming__header {
+    width: 610px;
+    height: 100%;
+    background-image: url("../images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.coming__body {
+    width: 830px;
+    height: 100%;
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 65px;
+    padding-left: 165px;
+    padding-right: 215px;
+}
+
+.coming__body h1 {
+    margin-top: 128px;
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Red);
+    letter-spacing: 17px;
+    line-height: 68px;
+}
+
+.coming__body h1 > span {
+    font-weight: 300;
+    color: var(--Desaturated-Red);
+}
+
+.coming__body p {
+    margin-top: 20px;
+    line-height: 1.8;
+    color: var(--Desaturated-Red);
+}
+
+
+@media (max-width: 1024px) {
+    .ComingSoon {
+        width: 375px;
+        flex-direction: column;
+    }
+}
